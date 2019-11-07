@@ -1,0 +1,668 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@color/colorPrimary"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableLayout
+            android:id="@+id/tableBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorWhite"
+            android:gravity="center">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt00"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt10"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt20"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt30"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt40"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt50"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt60"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt70"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt01"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt11"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt21"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt31"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt41"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt51"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt61"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt71"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt02"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt12"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt22"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt32"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt42"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt52"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt62"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt72"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt03"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt13"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt23"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt33"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt43"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt53"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt63"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt73"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt04"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt14"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt24"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt34"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt44"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt54"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt64"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt74"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt05"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt15"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt25"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt35"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt45"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt55"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt65"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt75"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt06"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt16"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt26"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt36"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt46"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt56"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt66"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt76"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/txt07"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt17"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt27"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt37"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt47"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt57"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+
+                <TextView
+                    android:id="@+id/txt67"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/txt77"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="normal|bold"
+                    android:background="@color/colorWhite"/>
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@android:dimen/notification_large_icon_height"
+            android:text="@string/buttonEX_name" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
